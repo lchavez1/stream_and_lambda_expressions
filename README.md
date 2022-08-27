@@ -7,7 +7,7 @@
  `stream.count()`  -> **To get the number of elements**
 
 ####limit
-```
+``` java
 	public static void limit(int limit) {
         // We can limit the elements of a list using the function limit and put a number like
 		// limit in the parameters
@@ -15,7 +15,7 @@
         System.out.printf("Limit, limited to %d first values\n", limit);
         numbers.stream().limit(limit).forEach(x -> System.out.print(x+" "));
     }
-    ```
+```
 ####order 
 	public static void order() {
         // First we order names with default method sorted, that by default is ASC
