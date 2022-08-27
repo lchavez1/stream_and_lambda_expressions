@@ -7,6 +7,7 @@
  `stream.count()`  -> **To get the number of elements**
 
 ####limit
+```
 	public static void limit(int limit) {
         // We can limit the elements of a list using the function limit and put a number like
 		// limit in the parameters
@@ -14,6 +15,7 @@
         System.out.printf("Limit, limited to %d first values\n", limit);
         numbers.stream().limit(limit).forEach(x -> System.out.print(x+" "));
     }
+    ```
 ####order 
 	public static void order() {
         // First we order names with default method sorted, that by default is ASC
@@ -26,6 +28,7 @@
         names.stream().sorted((x,y) -> y.compareTo(x)).forEach(System.out::println);
     }
 ####filter 
+
 	public static void filter(String filter) {
         // We can use the method filter and put a parameter, on this example 
         // I put a lambda expression to filter, this expressions mean the element
