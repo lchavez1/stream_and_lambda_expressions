@@ -1,4 +1,4 @@
-### Hello I am Luis, on this repository you can learn about Stream and Lambda expressions with Java.
+### Hello I am Fer, on this repository you can learn about Stream and Lambda expressions with Java.
 
  `stream.limit()`  -> ***To Limit the elements***
  
@@ -68,6 +68,6 @@
     }
 ```    
 
-Best, @lchavez1.
+Made with ❤️ by [Fer Chávez](https://github.com/lchavez1) 😊
 
 That readme file was crafted by me using pandao.guthub.io.
